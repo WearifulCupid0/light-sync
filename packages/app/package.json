@@ -1,0 +1,17 @@
+{
+  "name": "@light-sync/app",
+  "version": "1.0.0",
+  "description": "App for controlling LightSync server",
+  "main": "../../build/app/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.12",
+    "electron": "^33.0.2"
+  }
+}

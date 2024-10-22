@@ -1,0 +1,31 @@
+{
+  "name": "light-sync",
+  "version": "2.0.0",
+  "description": "An universal RGB device controller!",
+  "main": "index.js",
+  "author": "WearifulCupid0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "@app/start": "yarn workspace @light-sync/app run start",
+    "@app/dev": "yarn build && yarn lint && yarn @app/start",
+    "build": "tsc --project tsconfig.json",
+    "lint": "eslint ./packages --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/node": "^22.7.8",
+    "eslint": "^9.13.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  },
+  "workspaces": [
+    "packages/app",
+    "packages/server",
+    "packages/utils"
+  ]
+}

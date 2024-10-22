@@ -1,0 +1,13 @@
+{
+  "name": "@light-sync/server",
+  "version": "1.0.0",
+  "description": "Server for controlling and commading all RGB devices and integrations",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.12"
+  }
+}

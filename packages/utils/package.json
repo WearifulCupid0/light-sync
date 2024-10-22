@@ -1,0 +1,7 @@
+{
+  "name": "@light-sync/utils",
+  "version": "1.0.0",
+  "description": "Utils for LightSync",
+  "main": "index.js",
+  "license": "MIT"
+}
